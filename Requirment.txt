@@ -1,0 +1,43 @@
+		****Requirments****
+
+Libraries :
+	pip install requests
+	pip install BeautifulSoup
+	pip install nltk
+	pip install pyttsx3
+	pip install SpeechRecognition
+	pip install google
+
+Required Imports:
+	import pyttsx3
+	from bs4 import BeautifulSoup 
+	import requests
+	from googlesearch import search
+	import speech_recognition as sr
+	import csv
+	import time
+	from tkinter import *
+	import re
+        from nltk.tokenize import sent_tokenize,word_tokenize
+        import heapq
+        from nltk.corpus import stopwords
+
+Bat file:
+	@echo off
+	call YOUR_VENV_LOCATION\scripts\activate
+	cd INSTALLED_FOLDER
+	cls
+	pythonw engine.py
+	exit
+
+Vbs script:
+	Save the script with same location as the bat file. using the vbs script the gui 		will open without a console.
+  Code:
+	Set oShell = CreateObject ("Wscript.Shell") 
+	Dim strArgs
+	strArgs = "cmd /c engine.bat"
+	oShell.Run strArgs, 0, false
+
+
+Copyright © Abhayparashar31
+gmail : parasharabhay13@gmail.com
