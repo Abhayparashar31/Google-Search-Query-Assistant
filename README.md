@@ -37,7 +37,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![alt text](https://github.com/[Abhayparashar31]/[Google-Search-Query-Assistant]/images/[branch]/image1.png?raw=true)
+ <a href="https://github.com/github_Abhayparashar/Google-Search-Query-Assistant">
+    <img src="images/image1.png">
+  </a>
 
 Here's a blank template to get started:
 **To avoid retyping too much info. Do a search and replace with your text editor for the following:**
@@ -67,56 +69,56 @@ Version python3.7<
 ### Installation
  
 1. Clone the repo
-```sh
+```
 git clone https://github.com/github_Abhayparashar31/Google-Search-Query-Assistant.git
 ```
 2. Install Python Libraries
 ```
-	pip install requests
-	pip install BeautifulSoup
-	pip install nltk
-	pip install pyttsx3
-	pip install SpeechRecognition
-	pip install google
+pip install requests
+pip install BeautifulSoup
+pip install nltk
+pip install pyttsx3
+pip install SpeechRecognition
+pip install google
 
 ```
 
 3. Required Imports:
 ```
-	import pyttsx3
-	from bs4 import BeautifulSoup 
-	import requests
-	from googlesearch import search
-	import speech_recognition as sr
-	import csv
-	import time
-	from tkinter import *
-	import re
-  from nltk.tokenize import sent_tokenize,word_tokenize
-  import heapq
-  from nltk.corpus import stopwords
+import pyttsx3
+from bs4 import BeautifulSoup 
+import requests
+from googlesearch import search
+import speech_recognition as sr
+import csv
+import time
+from tkinter import *
+import re
+from nltk.tokenize import sent_tokenize,word_tokenize
+import heapq
+from nltk.corpus import stopwords
   ```
 
 4. Bat file:
 
-   ```
-	@echo off
-	call YOUR_VENV_LOCATION\scripts\activate
-	cd INSTALLED_FOLDER
-	cls
-	pythonw engine.py
-	exit
-	```
+  ```
+@echo off
+call YOUR_VENV_LOCATION\scripts\activate
+cd INSTALLED_FOLDER
+cls
+pythonw engine.py
+exit
+```
 
 5. Vbs script:
 	Save the script with same location as the bat file. using the vbs script the gui will open without a console.
   Code:
-  ```
-	Set oShell = CreateObject ("Wscript.Shell") 
-	Dim strArgs
-	strArgs = "cmd /c BATFILE_NAME.bat"
-	oShell.Run strArgs, 0, false
-  ```
+```
+Set oShell = CreateObject ("Wscript.Shell") 
+Dim strArgs
+strArgs = "cmd /c BATFILE_NAME.bat"
+oShell.Run strArgs, 0, false
+```
 
 ## Contributers
 
