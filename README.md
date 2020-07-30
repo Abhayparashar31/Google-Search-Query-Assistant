@@ -14,7 +14,7 @@
     <br />
     <a href="#">View Web Demo</a>
     ·
-    <p>Report Bug -> parasharabhay13@gmail.com</p>
+    <a>Report Bug -> parasharabhay13@gmail.com</a>
     
   </p>
 </p>
@@ -47,7 +47,7 @@ Here's a blank template to get started:
 ### Built With
 
 * [Python](python)
-* [Natural language processing](Natural language processing)
+* [NLP](Natural language processing)
 
 
 
@@ -98,6 +98,7 @@ git clone https://github.com/github_Abhayparashar31/Google-Search-Query-Assistan
   ```
 
 4. Bat file:
+
    ```
 	@echo off
 	call YOUR_VENV_LOCATION\scripts\activate
@@ -105,10 +106,10 @@ git clone https://github.com/github_Abhayparashar31/Google-Search-Query-Assistan
 	cls
 	pythonw engine.py
 	exit
-  ```
+	```
 
 5. Vbs script:
-	Save the script with same location as the bat file. using the vbs script the gui 		will open without a console.
+	Save the script with same location as the bat file. using the vbs script the gui will open without a console.
   Code:
   ```
 	Set oShell = CreateObject ("Wscript.Shell") 
