@@ -41,8 +41,7 @@
     <img src="images/image1.png"><img src="images/image2.png">
   </a>
 
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
+
 `Abhayparashar31`, `Google-Search-Query-Assistant`,  `parasharabhay13@gmail.com`
 
 
